@@ -1,0 +1,1375 @@
+2022-11-12 20:33:54.147715: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-12 20:33:54.176952: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-12 20:33:54.178059: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x4038000 executing computations on platform Host. Devices:
+2022-11-12 20:33:54.178105: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-12 20:33:58.851912: W tensorflow/core/framework/allocator.cc:124] Allocation of 18874368 exceeds 10% of system memory.
+2022-11-12 20:33:59.533132: W tensorflow/core/framework/allocator.cc:124] Allocation of 18874368 exceeds 10% of system memory.
+2022-11-12 20:33:59.579155: W tensorflow/core/framework/allocator.cc:124] Allocation of 18874368 exceeds 10% of system memory.
+Terminated
+Traceback (most recent call last):
+  File "/home/robotmessenger810/groot-sorting-tracking/code/robot_image_sorting.py", line 9, in <module>
+    import src.sorting_functions as sf
+  File "/home/robotmessenger810/groot-sorting-tracking/code/src/sorting_functions.py", line 10, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+2022-11-12 20:45:32.216045: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-12 20:45:32.219658: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-12 20:45:32.219985: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x22c57f0 executing computations on platform Host. Devices:
+2022-11-12 20:45:32.220036: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-12 20:45:48.579917: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-12 20:45:48.580028: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-12 20:45:48.580396: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-12 20:45:48.580477: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-12 20:45:48.580503: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-12 20:45:48.580528: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-12 20:45:48.765131: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-12 20:45:48.765236: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-12 20:45:48.765570: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-12 20:45:48.765613: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-12 20:45:48.765674: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-12 20:45:48.765699: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['7_1_22_4.zip']
+7_1_22_4
+7_1_22_4
+QR RETINANET processing time:  8.433175563812256
+QR code has been found!!! 
+threshold technique: 0
+Position number = 2
+Box number = 3617
+QR RETINANET processing time:  7.613829612731934
+QR code has been found!!! 
+threshold technique: 0
+Position number = 3
+Box number = 3620
+QR RETINANET processing time:  7.544297456741333
+QR code has been found!!! 
+threshold technique: 0
+Position number = 26
+Box number = 3630
+QR RETINANET processing time:  7.55017876625061
+QR code has been found!!! 
+threshold technique: 0
+Traceback (most recent call last):
+  File "robot_image_sorting.py", line 65, in <module>
+    sf.label(run_name)
+  File "/home/robotmessenger810/groot-sorting-tracking/code/src/sorting_functions.py", line 179, in label
+    exp_name = (int((str(barcode[0][0]).split('\'')[1::2])[0])) 
+ValueError: invalid literal for int() with base 10: '3185.6'
+2022-11-13 03:42:19.198719: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 03:42:19.205302: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 03:42:19.205978: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2e29150 executing computations on platform Host. Devices:
+2022-11-13 03:42:19.206155: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 03:42:26.465115: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 03:42:26.465229: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 03:42:26.465580: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 03:42:26.465625: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 03:42:26.465650: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 03:42:26.465673: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 03:42:26.647496: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 03:42:26.647600: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 03:42:26.647967: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 03:42:26.648014: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 03:42:26.648077: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 03:42:26.648109: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.238917350769043
+QR code has been found!!! 
+threshold technique: 1
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.549102544784546
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.513164043426514
+QR code has been found!!! 
+threshold technique: 1
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.663726329803467
+QR code has been found!!! 
+threshold technique: 0
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.706982135772705
+QR code has been found!!! 
+threshold technique: 0
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.557920694351196
+QR code has been found!!! 
+threshold technique: 0
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.549935579299927
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+
+*****************
+There are 2 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
+2022-11-13 04:03:50.890630: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:03:50.894692: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:03:50.895203: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2ef2270 executing computations on platform Host. Devices:
+2022-11-13 04:03:50.895251: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:03:57.868498: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:03:57.868615: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:03:57.869000: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:03:57.869046: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:03:57.869096: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:03:57.869120: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:03:58.046959: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:03:58.047061: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:03:58.047425: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:03:58.047470: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:03:58.047496: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:03:58.047517: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.240655899047852
+QR code has been found!!! 
+threshold technique: 1
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.557044744491577
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.5403525829315186
+QR code has been found!!! 
+threshold technique: 1
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.57247519493103
+QR code has been found!!! 
+threshold technique: 0
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.541630268096924
+QR code has been found!!! 
+threshold technique: 0
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.528156042098999
+QR code has been found!!! 
+threshold technique: 1
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.517106056213379
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+Traceback (most recent call last):
+  File "robot_image_sorting.py", line 68, in <module>
+    sf.clear_staging_bucket(data_path)        
+  File "/home/robotmessenger810/groot-sorting-tracking/code/src/sorting_functions.py", line 406, in clear_staging_bucket
+    shutil.move(MOUNTED_BUCKET_STAGING_PATH + "/" + zip_to_remove, ARCHIVE_PATH + "/" + zip_to_remove)
+NameError: name 'ARCHIVE_PATH' is not defined
+2022-11-13 04:07:27.254524: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:07:27.258545: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:07:27.258895: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x1f1f500 executing computations on platform Host. Devices:
+2022-11-13 04:07:27.258953: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:07:34.279080: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:07:34.279191: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:07:34.279565: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:07:34.279609: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:07:34.279634: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:07:34.279655: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:07:34.449404: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:07:34.449507: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:07:34.450070: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:07:34.450179: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:07:34.450214: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:07:34.450244: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.214923620223999
+QR code has been found!!! 
+threshold technique: 2
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.525796175003052
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.529126405715942
+QR code has been found!!! 
+threshold technique: 2
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.570302248001099
+QR code has been found!!! 
+threshold technique: 1
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.526376724243164
+QR code has been found!!! 
+threshold technique: 1
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.524413108825684
+QR code has been found!!! 
+threshold technique: 2
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.518267393112183
+QR code has been found!!! 
+threshold technique: 2
+Position number = 6
+Box number = 2652
+
+*****************
+There are 1 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
+2022-11-13 04:14:40.152319: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:14:40.156001: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:14:40.156385: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2f02030 executing computations on platform Host. Devices:
+2022-11-13 04:14:40.156421: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:14:46.965165: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:14:46.965306: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:14:46.965718: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:14:46.965769: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:14:46.965796: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:14:46.965819: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:14:47.143638: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:14:47.143744: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:14:47.144105: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:14:47.144153: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:14:47.144177: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:14:47.144200: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.277082681655884
+QR code has been found!!! 
+threshold technique: 2
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.539838790893555
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.495592355728149
+QR code has been found!!! 
+threshold technique: 2
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.587825059890747
+QR code has been found!!! 
+threshold technique: 1
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.488667726516724
+QR code has been found!!! 
+threshold technique: 1
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.518871784210205
+QR code has been found!!! 
+threshold technique: 2
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.541003942489624
+QR code has been found!!! 
+threshold technique: 2
+Position number = 6
+Box number = 2652
+
+*****************
+There are 1 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
+2022-11-13 04:18:44.865672: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:18:44.869534: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:18:44.869869: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2d3bf60 executing computations on platform Host. Devices:
+2022-11-13 04:18:44.869949: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+[]
+Traceback (most recent call last):
+  File "robot_image_sorting.py", line 57, in <module>
+    data_path = data_path_list[0]
+IndexError: list index out of range
+2022-11-13 04:19:16.650488: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:19:16.654335: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:19:16.654617: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x403f580 executing computations on platform Host. Devices:
+2022-11-13 04:19:16.654659: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:19:23.427448: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:19:23.427558: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:19:23.428067: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:19:23.428169: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:19:23.428203: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:19:23.428232: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:19:23.601073: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:19:23.601183: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:19:23.601542: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:19:23.601587: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:19:23.601613: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:19:23.601634: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.430780410766602
+QR code has been found!!! 
+threshold technique: 2
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.536949157714844
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.498869180679321
+QR code has been found!!! 
+threshold technique: 2
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.5308380126953125
+QR code has been found!!! 
+threshold technique: 1
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.516720533370972
+QR code has been found!!! 
+threshold technique: 1
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.506829500198364
+QR code has been found!!! 
+threshold technique: 2
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.51971173286438
+QR code has been found!!! 
+threshold technique: 2
+Position number = 6
+Box number = 2652
+
+*****************
+There are 1 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
+2022-11-13 04:23:58.424057: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:23:58.427982: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:23:58.428328: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2ff0020 executing computations on platform Host. Devices:
+2022-11-13 04:23:58.428368: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:24:05.260533: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:24:05.260662: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:24:05.261047: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:24:05.261099: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:24:05.261127: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:24:05.261153: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:24:05.442037: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:24:05.442139: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:24:05.442498: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:24:05.442592: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:24:05.442623: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:24:05.442647: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.29737138748169
+QR code has been found!!! 
+threshold technique: 0
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.6954026222229
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.663176536560059
+QR code has been found!!! 
+threshold technique: 2
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.6481029987335205
+QR code has been found!!! 
+threshold technique: 0
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.65130090713501
+QR code has been found!!! 
+threshold technique: 0
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.646714925765991
+QR code has been found!!! 
+threshold technique: 2
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.688377141952515
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+
+*****************
+There are 1 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
+2022-11-13 04:29:49.001258: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:29:49.005045: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:29:49.005439: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x27d7a80 executing computations on platform Host. Devices:
+2022-11-13 04:29:49.005482: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:29:56.062737: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:29:56.062858: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:29:56.063247: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:29:56.063304: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:29:56.063330: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:29:56.063357: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:29:56.239242: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:29:56.239349: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:29:56.239721: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:29:56.239770: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:29:56.239808: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:29:56.239900: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, image2, from '*.png':
+  Duration: 00:00:00.93, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, gray(pc), 2800x3000 [SAR 2835:2835 DAR 14:15], 15 tbr, 15 tbn, 15 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x61bf780] using SAR=1/1
+[libx264 @ 0x61bf780] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x61bf780] profile High, level 5.1, 4:2:0, 8-bit
+[libx264 @ 0x61bf780] 264 - core 159 r2991 1771b55 - H.264/MPEG-4 AVC codec - Copyleft 2003-2019 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=24.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'outfile.mp4':
+  Metadata:
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 2800x3000 [SAR 1:1 DAR 14:15], q=-1--1, 15 fps, 15360 tbn, 15 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=    5 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   10 fps=9.3 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   14 fps=1.6 q=-1.0 Lsize=    1176kB time=00:00:00.73 bitrate=13135.1kbits/s speed=0.0846x    
+video:1175kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.086276%
+[libx264 @ 0x61bf780] frame I:1     Avg QP:23.78  size:237557
+[libx264 @ 0x61bf780] frame P:4     Avg QP:24.15  size: 99724
+[libx264 @ 0x61bf780] frame B:9     Avg QP:24.66  size: 62887
+[libx264 @ 0x61bf780] consecutive B-frames: 14.3%  0.0%  0.0% 85.7%
+[libx264 @ 0x61bf780] mb I  I16..4:  6.6% 80.0% 13.4%
+[libx264 @ 0x61bf780] mb P  I16..4:  0.3%  6.0%  0.3%  P16..4: 39.7%  7.8% 10.0%  0.0%  0.0%    skip:36.0%
+[libx264 @ 0x61bf780] mb B  I16..4:  0.1%  1.4%  0.0%  B16..8: 46.8%  2.7%  0.5%  direct: 4.7%  skip:43.7%  L0:44.1% L1:54.8% BI: 1.1%
+[libx264 @ 0x61bf780] 8x8 transform intra:83.2% inter:76.8%
+[libx264 @ 0x61bf780] coded y,uvDC,uvAC intra: 69.4% 0.0% 0.0% inter: 24.9% 0.0% 0.0%
+[libx264 @ 0x61bf780] i16 v,h,dc,p: 37% 21% 10% 32%
+[libx264 @ 0x61bf780] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 17% 23%  6%  7%  6%  7%  5%  6%
+[libx264 @ 0x61bf780] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 25% 11%  6%  8%  6%  7%  4%  4%
+[libx264 @ 0x61bf780] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0x61bf780] Weighted P-Frames: Y:25.0% UV:0.0%
+[libx264 @ 0x61bf780] ref P L0: 51.2% 17.4% 17.4% 12.8%  1.2%
+[libx264 @ 0x61bf780] ref B L0: 76.6% 15.5%  7.9%
+[libx264 @ 0x61bf780] ref B L1: 75.0% 25.0%
+[libx264 @ 0x61bf780] kb/s:10306.54
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'outfile.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:00.93, start: 0.000000, bitrate: 10313 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 2800x3000 [SAR 1:1 DAR 14:15], 10312 kb/s, 15 fps, 15 tbr, 15360 tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+[vidstabdetect @ 0x7ffee57ed8e0] For high accuracy use lower stepsize  -- set to 6 nowFieldsize: 288, Maximal translation: 400 pixel
+[vidstabdetect @ 0x7ffee57ed880] Number of used measurement fields: 20 out of 30
+[vidstabdetect @ 0x7ffee57ed880] Fieldsize: 48, Maximal translation: 48 pixel
+[vidstabdetect @ 0x7ffee57ed880] Number of used measurement fields: 522 out of 783
+[Parsed_vidstabdetect_0 @ 0x752bb00] Video stabilization settings (pass 1/2):
+[Parsed_vidstabdetect_0 @ 0x752bb00]      shakiness = 10
+[Parsed_vidstabdetect_0 @ 0x752bb00]       accuracy = 10
+[Parsed_vidstabdetect_0 @ 0x752bb00]       stepsize = 6
+[Parsed_vidstabdetect_0 @ 0x752bb00]    mincontrast = 0.250000
+[Parsed_vidstabdetect_0 @ 0x752bb00]         tripod = 0
+[Parsed_vidstabdetect_0 @ 0x752bb00]           show = 0
+[Parsed_vidstabdetect_0 @ 0x752bb00]         result = transforms.trf
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: wrapped_avframe, yuv420p, 2800x3000 [SAR 1:1 DAR 14:15], q=2-31, 200 kb/s, 15 fps, 15 tbn, 15 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc58.54.100 wrapped_avframe
+frame=    3 fps=0.0 q=-0.0 size=N/A time=00:00:00.20 bitrate=N/A speed=0.22x    frame=    5 fps=2.7 q=-0.0 size=N/A time=00:00:00.33 bitrate=N/A speed=0.179x    frame=    7 fps=2.5 q=-0.0 size=N/A time=00:00:00.46 bitrate=N/A speed=0.168x    frame=    8 fps=2.3 q=-0.0 size=N/A time=00:00:00.53 bitrate=N/A speed=0.157x    frame=    9 fps=2.3 q=-0.0 size=N/A time=00:00:00.60 bitrate=N/A speed=0.153x    frame=   11 fps=2.3 q=-0.0 size=N/A time=00:00:00.73 bitrate=N/A speed=0.153x    frame=   12 fps=2.2 q=-0.0 size=N/A time=00:00:00.80 bitrate=N/A speed=0.148x    frame=   14 fps=2.2 q=-0.0 size=N/A time=00:00:00.93 bitrate=N/A speed=0.146x    frame=   14 fps=2.0 q=-0.0 size=N/A time=00:00:00.93 bitrate=N/A speed=0.13x    frame=   14 fps=2.0 q=-0.0 Lsize=N/A time=00:00:00.93 bitrate=N/A speed=0.13x    
+video:7kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'outfile.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:00.93, start: 0.000000, bitrate: 10313 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 2800x3000 [SAR 1:1 DAR 14:15], 10312 kb/s, 15 fps, 15 tbr, 15360 tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[Parsed_vidstabtransform_0 @ 0x62a2b40] Video transformation/stabilization settings (pass 2/2):
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     input     = transforms.trf
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     smoothing = 15
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     optalgo   = gauss
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     maxshift  = -1
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     maxangle  = -1.000000
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     crop      = Keep
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     relative  = True
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     invert    = False
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     zoom      = 0.000000
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     optzoom   = Static (1)
+[Parsed_vidstabtransform_0 @ 0x62a2b40]     interpol  = Bi-Linear (2)
+[vidstabtransform @ 0x7ffdf0a44160] Final zoom: 0.036196
+[libx264 @ 0x61f29c0] using SAR=1/1
+[libx264 @ 0x61f29c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x61f29c0] profile High, level 5.1, 4:2:0, 8-bit
+[libx264 @ 0x61f29c0] 264 - core 159 r2991 1771b55 - H.264/MPEG-4 AVC codec - Copyleft 2003-2019 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'outfile_stabilized.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 2800x3000 [SAR 1:1 DAR 14:15], q=-1--1, 15 fps, 15360 tbn, 15 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc58.54.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=    3 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=    6 fps=5.6 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=    9 fps=5.5 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   12 fps=5.6 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   14 fps=1.6 q=-1.0 Lsize=     998kB time=00:00:00.73 bitrate=11142.8kbits/s speed=0.0815x    
+video:997kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.100148%
+[libx264 @ 0x61f29c0] frame I:1     Avg QP:19.78  size:236899
+[libx264 @ 0x61f29c0] frame P:4     Avg QP:21.04  size: 89372
+[libx264 @ 0x61f29c0] frame B:9     Avg QP:22.11  size: 47268
+[libx264 @ 0x61f29c0] consecutive B-frames: 14.3%  0.0%  0.0% 85.7%
+[libx264 @ 0x61f29c0] mb I  I16..4:  6.5% 86.6%  6.8%
+[libx264 @ 0x61f29c0] mb P  I16..4:  0.4%  4.3%  0.2%  P16..4: 45.0% 10.4%  5.8%  0.0%  0.0%    skip:34.0%
+[libx264 @ 0x61f29c0] mb B  I16..4:  0.1%  0.5%  0.0%  B16..8: 44.1%  3.2%  0.4%  direct: 3.8%  skip:48.0%  L0:44.5% L1:53.2% BI: 2.3%
+[libx264 @ 0x61f29c0] 8x8 transform intra:86.9% inter:84.2%
+[libx264 @ 0x61f29c0] coded y,uvDC,uvAC intra: 66.2% 0.0% 0.0% inter: 18.1% 0.0% 0.0%
+[libx264 @ 0x61f29c0] i16 v,h,dc,p: 35% 25% 14% 26%
+[libx264 @ 0x61f29c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 22% 18%  4%  5%  5%  5%  4%  6%
+[libx264 @ 0x61f29c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 30%  6%  5%  8%  6%  7%  4%  5%
+[libx264 @ 0x61f29c0] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0x61f29c0] Weighted P-Frames: Y:25.0% UV:0.0%
+[libx264 @ 0x61f29c0] ref P L0: 56.2% 14.4% 15.7% 12.3%  1.4%
+[libx264 @ 0x61f29c0] ref B L0: 78.8% 13.3%  7.9%
+[libx264 @ 0x61f29c0] ref B L1: 78.0% 22.0%
+[libx264 @ 0x61f29c0] kb/s:8741.13
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.243809938430786
+QR code has been found!!! 
+threshold technique: 0
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.592666864395142
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.537653684616089
+QR code has been found!!! 
+threshold technique: 0
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.516986846923828
+QR code has been found!!! 
+threshold technique: 0
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.5591747760772705
+QR code has been found!!! 
+threshold technique: 0
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.524547338485718
+QR code has been found!!! 
+threshold technique: 2
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.537959814071655
+QR code has been found!!! 
+threshold technique: 3
+Position number = 6
+Box number = 2652
+No experiments in junk review.
+[['2651', 14]]
+No new images were added to 2651, moving to finished_exp
+Traceback (most recent call last):
+  File "robot_image_sorting.py", line 73, in <module>
+    sf.final_transfer(current_exp_list, stabilize = not args.do_not_stabilize)
+  File "/home/robotmessenger810/groot-sorting-tracking/code/src/sorting_functions.py", line 348, in final_transfer
+    shutil.copy(FINISHED_EXP_PATH + current_exp_list[x][0] + "/outfile_stabilized.mp4", STABILIZED_VIDEO_PATH + current_exp_name + ".mp4")
+  File "/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/shutil.py", line 248, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/shutil.py", line 121, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/robotmessenger810/groot-sorting-tracking/data/videos/stabilized/2651.mp4'
+2022-11-13 04:34:40.235909: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:34:40.239750: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:34:40.240101: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x208c1f0 executing computations on platform Host. Devices:
+2022-11-13 04:34:40.240143: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:34:47.199497: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:34:47.199631: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:34:47.199972: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:34:47.200018: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:34:47.200045: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:34:47.200073: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:34:47.370060: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:34:47.370174: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:34:47.370532: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:34:47.370583: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:34:47.370612: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:34:47.370640: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.198508501052856
+QR code has been found!!! 
+threshold technique: 0
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.555129051208496
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.62416934967041
+QR code has been found!!! 
+threshold technique: 0
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.521711349487305
+QR code has been found!!! 
+threshold technique: 0
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.49465012550354
+QR code has been found!!! 
+threshold technique: 0
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.546578884124756
+QR code has been found!!! 
+threshold technique: 2
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.582266330718994
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+
+*****************
+There are 2 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
+Traceback (most recent call last):
+  File "robot_image_sorting.py", line 9, in <module>
+    import src.sorting_functions as sf
+  File "/home/robotmessenger810/groot-sorting-tracking/code/src/sorting_functions.py", line 159
+    blur = cv2.GaussianBlur(img[(box[0]:box[2]),(box[1]:box[3])],(5,5),0)
+                                       ^
+SyntaxError: invalid syntax
+2022-11-13 04:45:01.966917: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:45:01.970503: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:45:01.970836: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x3760230 executing computations on platform Host. Devices:
+2022-11-13 04:45:01.970875: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:45:08.760532: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:45:08.760648: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:45:08.760999: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:45:08.761051: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:45:08.761083: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:45:08.761108: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:45:08.929868: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:45:08.929990: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:45:08.930332: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:45:08.930378: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:45:08.930403: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:45:08.930424: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.19374680519104
+QR code has been found!!! 
+[1131  126 1801  705]
+threshold technique: 0
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.574084520339966
+QR code has been found!!! 
+[1094  131 1768  718]
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.522177457809448
+QR code has been found!!! 
+[1073   86 1750  671]
+threshold technique: 0
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.573962450027466
+QR code has been found!!! 
+[1047  116 1728  705]
+threshold technique: 0
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.484169006347656
+QR code has been found!!! 
+[1141  153 1811  732]
+threshold technique: 0
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.547866344451904
+QR code has been found!!! 
+[1169   97 1847  681]
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.513383626937866
+QR code has been found!!! 
+[1101  122 1775  711]
+QR code exists but barcode could not be read! See Junk Review.
+
+*****************
+There are 2 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
+2022-11-13 04:50:11.135854: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:50:11.139650: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:50:11.140018: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x3b63ed0 executing computations on platform Host. Devices:
+2022-11-13 04:50:11.140060: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:50:17.957361: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:50:17.957471: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:50:17.957840: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:50:17.957911: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:50:17.957942: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:50:17.957971: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:50:18.126135: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:50:18.126244: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:50:18.126587: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:50:18.126631: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:50:18.126675: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:50:18.126699: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.196444272994995
+QR code has been found!!! 
+[1129  127 1800  704]
+threshold technique: 0
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.486366510391235
+QR code has been found!!! 
+[1097  131 1772  718]
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.539480924606323
+QR code has been found!!! 
+[1074   87 1752  671]
+threshold technique: 0
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.4995458126068115
+QR code has been found!!! 
+[1048  114 1733  702]
+threshold technique: 0
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.527595520019531
+QR code has been found!!! 
+[1139  150 1814  731]
+threshold technique: 0
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.532763481140137
+QR code has been found!!! 
+[1166   99 1848  682]
+threshold technique: 3
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.514269113540649
+QR code has been found!!! 
+[1101  122 1775  709]
+threshold technique: 3
+Position number = 6
+Box number = 2652
+
+*****************
+There are 1 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
+2022-11-13 04:52:51.866374: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:52:51.870001: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:52:51.870320: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x29e8210 executing computations on platform Host. Devices:
+2022-11-13 04:52:51.870358: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:52:58.580828: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:52:58.580948: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:52:58.581325: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:52:58.581377: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:52:58.581405: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:52:58.581429: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:52:58.755966: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:52:58.756078: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:52:58.756462: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:52:58.756553: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:52:58.756591: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:52:58.756618: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.245819091796875
+QR code has been found!!! 
+Traceback (most recent call last):
+  File "robot_image_sorting.py", line 65, in <module>
+    sf.label(run_name)
+  File "/home/robotmessenger810/groot-sorting-tracking/code/src/sorting_functions.py", line 160, in label
+    draw = Image.fromarray(draw)
+NameError: name 'Image' is not defined
+2022-11-13 04:53:59.571549: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:53:59.575405: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:53:59.575748: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2bd7df0 executing computations on platform Host. Devices:
+2022-11-13 04:53:59.575790: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+file exists
+[Errno 17] File exists: '/home/robotmessenger810/groot-sorting-tracking/data/robot/master_data/unsorted_unlabeled/6_3_21_1'
+6_3_21_1
+Traceback (most recent call last):
+  File "robot_image_sorting.py", line 64, in <module>
+    sf.sort(run_name, run_name[-1:])
+  File "/home/robotmessenger810/groot-sorting-tracking/code/src/sorting_functions.py", line 100, in sort
+    os.mkdir(mypathout+"/"+str(x+1))
+FileExistsError: [Errno 17] File exists: '/home/robotmessenger810/groot-sorting-tracking/data/robot/master_data/sorted_unlabeled/6_3_21_1/1'
+2022-11-13 04:54:40.946123: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:54:40.949690: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:54:40.950034: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x3082420 executing computations on platform Host. Devices:
+2022-11-13 04:54:40.950104: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:54:47.680902: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:54:47.681022: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:54:47.681395: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:54:47.681446: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:54:47.681474: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:54:47.681501: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:54:47.850086: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:54:47.850200: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:54:47.850540: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:54:47.850644: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:54:47.850677: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:54:47.850703: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.212135791778564
+QR code has been found!!! 
+Traceback (most recent call last):
+  File "robot_image_sorting.py", line 65, in <module>
+    sf.label(run_name)
+  File "/home/robotmessenger810/groot-sorting-tracking/code/src/sorting_functions.py", line 161, in label
+    draw = Image.fromarray(draw)
+UnboundLocalError: local variable 'draw' referenced before assignment
+2022-11-13 04:55:39.896889: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-13 04:55:39.900486: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2022-11-13 04:55:39.900798: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x2517c50 executing computations on platform Host. Devices:
+2022-11-13 04:55:39.900856: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2022-11-13 04:55:46.672975: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:55:46.673095: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:55:46.673455: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:55:46.673503: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:55:46.673532: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:55:46.673557: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:55:46.836965: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_6. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:55:46.837077: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node filtered_detections/map/while/strided_slice_4. Error: Pack node (filtered_detections/map/while/stack) axis attribute is out of bounds: 1
+2022-11-13 04:55:46.837426: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_2. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:55:46.837504: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_3. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:55:46.837580: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_4. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+2022-11-13 04:55:46.837608: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage RemoveStackStridedSliceSameAxis node clipped_boxes/strided_slice_5. Error: Pack node (boxes/stack) axis attribute is out of bounds: 2
+/home/robotmessenger810/miniconda3/envs/image-sorting/lib/python3.7/site-packages/keras/engine/saving.py:341: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+  warnings.warn('No training configuration found in save file: '
+Namespace(boxes_per_shelf='7', do_not_stabilize=False, robot_number='', transfer=False)
+tracking <tf.Variable 'Variable:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_1:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_2:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_3:0' shape=(9, 4) dtype=float32> anchors
+tracking <tf.Variable 'Variable_4:0' shape=(9, 4) dtype=float32> anchors
+Clearing out junk folders
+['6_3_21_1.zip']
+6_3_21_1
+6_3_21_1
+QR RETINANET processing time:  8.15256118774414
+QR code has been found!!! 
+threshold technique: 0
+Position number = 2
+Box number = 2648
+QR RETINANET processing time:  7.562445640563965
+QR code has been found!!! 
+QR code exists but barcode could not be read! See Junk Review.
+QR RETINANET processing time:  7.523089170455933
+QR code has been found!!! 
+threshold technique: 0
+Position number = 1
+Box number = 2653
+QR RETINANET processing time:  7.456083536148071
+QR code has been found!!! 
+threshold technique: 0
+Position number = 7
+Box number = 2649
+QR RETINANET processing time:  7.498890161514282
+QR code has been found!!! 
+threshold technique: 0
+Position number = 4
+Box number = 2647
+QR RETINANET processing time:  7.47990345954895
+QR code has been found!!! 
+threshold technique: 2
+Position number = 5
+Box number = 2651
+QR RETINANET processing time:  7.5171918869018555
+QR code has been found!!! 
+threshold technique: 0
+Position number = 6
+Box number = 2652
+
+*****************
+There are 1 experiment folders that have been sent to junk_review. Please manually move these experiments to the 're_merge' folder in 'junk_review' if you wish to keep them and rename the experiments with the correct experiment number.
+PROGRAM ENDING AFTER CURRENT ROBOT RUN
+skipping final transfer, there are junk review items to be dealt with
+*****************
